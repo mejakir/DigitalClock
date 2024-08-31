@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: opx;
+  outline: none;
+}
+
+body {
+  background: black;
+}
+.container {
+  width: 585px;
+  margin: 0 auto;
+}
+
+#ClockDisplay {
+  color: lightcoral;
+  font-size: 90px;
+  font-family: arial;
+  letter-spacing: 6px;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  border: 2px solid lightcoral;
+  padding: 25px 19px 25px 25px;
+  box-sizing: border-box;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
